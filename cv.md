@@ -10,7 +10,7 @@
 Beginner in IT with no work experience, but with a great desire to learn. I know HTML5, CSS3, know how the browser works and how interacts with the server over the network at a basic level. Interested in experienced and open colleagues who have a lot to learn from. Want to become part of a friendly team that wants to grow and create great applications.
 
 **Skills** 
-HTML5, CSS3, SCSS, JavaScript (in learning), the basics of GIT, webpack.
+HTML5, CSS3, JavaScript (in learning), the basics of SCSS, GIT, Webpack.
 Cross-browser, adaptive layout. Use of BEM names in markup. Semantics.
 Knowledge of Photoshop, Figma. Optimization of code and images. Pixel perfect layout.
 

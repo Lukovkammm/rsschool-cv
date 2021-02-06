@@ -76,7 +76,7 @@
  @media screen and (max-width: 900px) {
      body {
          font-size: 16px;
-         
+
          background-color: antiquewhite;
      }
 
@@ -106,7 +106,7 @@
      body {
          background-color: azure;
      }
-     
+
      main {
          flex-direction: column;
      }

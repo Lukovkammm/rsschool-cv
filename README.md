@@ -1,2 +1,2 @@
 # rsschool-cv
-index.html
+https://lukovkammm.github.io/rsschool-cv/

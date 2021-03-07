@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    line-height: 1.3;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aside {
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(42, 71, 89);
+}
+
+.main-info__title,
+.main__title {
+    position: relative;
+    font-size: 2.3rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, .1);
+    padding: 5px 0 10px 40px;
+}
+
+.main-info__title::before,
+.main__title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 100%;
+    background-color: rgb(242, 175, 92);
+}
+
+.main-info__text {
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, .7);
+}
+
+.contact__list {
+    padding-left: 45px;
+}
+
+.contact__item a {
+    color: inherit;
+    line-height: 1.5;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 10%;
+
+}
+
+.introduce {
+    padding-top: 35%;
+}
+
+.name {
+    margin: 0 0 15px;
+    font-size: 6.5rem;
+    font-weight: 400;
+}
+
+.specialization {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.main__title {
+    color: rgba(42, 71, 89);
+    background-color: rgba(42, 71, 89, .2);
+}
+
+.main__desc {
+    font-size: 1.7rem;
+    line-height: 1.6;
+}
+
+.school {
+    display: flex;
+    justify-content: space-between;
+    height: 6%;
+}
+
+.school__logo {
+    width: 20%;
+    fill:  rgba(42, 71, 89);
+}
+
+.school__link {
+    align-self: center;
+    font-size: 1.4rem;
+    color: inherit;
+}
